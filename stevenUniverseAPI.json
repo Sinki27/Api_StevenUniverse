@@ -1,6 +1,7 @@
-export const universe = [
-    {
-    "genero": "Desenho Animacao",
+{
+    "genero": "API para manipular dados - Steven Universe",
+    "development": "Gabriel Guilherme Barbosa",
+    "date":"2026-05-17",
     "personagens": [
         {
             "name": "Historia - Steven Universe",
@@ -122,4 +123,3 @@ export const universe = [
         }
     ]
 }
-];

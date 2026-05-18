@@ -1,0 +1,102 @@
+/* SEÇÃO BIBLIOTECA */
+.Cards {
+    padding: 80px 0;
+    background-color: #282828;
+}
+
+#caixa_empresa {
+    font-family: 'ChaletComprime';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.titulo_cards {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.titulo_cards span {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--dark-color);
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.titulo_cards span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--primary-color);
+}
+
+/* GRID DE PRODUTOS (CARDS) */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Espaçamento moderno entre cards */
+}
+
+.caixa_url {
+    text-decoration: none;
+}
+
+.caixa_produto {
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: var(--transition);
+    border: 1px solid #eee;
+}
+
+.caixa_produto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.caixa_titulo, .caixa_years, .caixa_gun {
+    background-color: var(--dark-color);
+    color: #000000;
+    padding: 15px;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.caixa_imagem {
+    width: 100%;
+    height: 180px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdfdfd;
+}
+
+.caixa_imagem img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.caixa_texto {
+    flex-grow: 1;
+    padding: 20px;
+    color: #666;
+    font-size: 1.15rem;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+}

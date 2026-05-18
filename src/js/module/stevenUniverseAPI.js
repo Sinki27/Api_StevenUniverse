@@ -1,0 +1,125 @@
+export const universe = [
+    {
+    "genero": "Desenho Animacao",
+    "personagens": [
+        {
+            "name": "Historia - Steven Universe",
+            "image": "./src/js/module/imgAPI/StevenUniverse.webp",
+            "describle": "Steven Universe é uma história de amadurecimento contada pela perspectiva de Steven, o membro mais jovem das Crystal Gems, uma equipe de guardiãs mágicas que protegem o planeta Terra.A série animada foi concebida como parte da 'Iniciativa de Desenvolvimento de Curtas' do Cartoon Network Studios e é criada por Rebecca Sugar , roteirista e artista de storyboard indicada ao Emmy e ao Annie Award, e a primeira criadora solo não-binária de uma série do Cartoon Network!",
+            "url": "https://steven-universe.fandom.com/wiki/Steven_Universe_Wiki"
+        },
+        {
+            "name": "Garnet",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/2/27/Garnet_With_Rings.png/revision/latest?cb=20250919034812",
+            "describle": "Garnet é a fusão de Rubi e Safira e a atual líder de fato das Crystal Gems. Garnet é uma das últimas Gems sobreviventes na Terra, que se juntou às Crystal Gems na Rebelião contra o Planeta Natal das Gems e, posteriormente, ajudou suas amigas a proteger a Terra pelos milênios seguintes.",
+            "gun": "Manoplas",
+            "years": "5.752",
+            "url": "https://steven-universe.fandom.com/wiki/Garnet"
+        },
+        {
+            "name": "Pearl",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/3/38/CYM_Pearl_Request_by_RylerGamerDBS.png/revision/latest?cb=20210426225857",
+            "describle": "Pérola é membro das Crystal Gems . Ela foi a segunda Pérola de Diamante Rosa e uma das seguidoras mais próximas de Rose Quartz , sendo sua única confidente. Pérola é uma das últimas Gems sobreviventes na Terra que se juntou às Crystal Gems em sua rebelião contra o Planeta Natal das Gems.",
+            "gun": "Lanca - Espadas",
+            "years": "8.000",
+            "url": "https://steven-universe.fandom.com/wiki/Pearl"
+        },
+        {
+            "name": "Amethyst",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/4/4b/Amethyst_CYM_Outfit.png/revision/latest?cb=20250918195457",
+            "describle": "Ametista (especificamente Ametista Faceta-5 Corte-8XM ) é membro das Crystal Gems . Ela é a última Gem conhecida fabricada na Terra como parte do projeto Jardim de Infância do Planeta Natal das Gems , sendo uma das últimas Gems sobreviventes na Terra.",
+            "gun": "Chicote",
+            "years": "5.000",
+            "url": "https://steven-universe.fandom.com/wiki/Amethyst"
+        },
+        {
+            "name": "Steven Universe",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/1/12/StevenUniverse16_-2-_By_TheOffColors.png/revision/latest?cb=20250906011246",
+            "describle": "Steven Quartz Universe é o protagonista principal da franquia Steven Universe . Ele é filho de Greg Universe e Rose Quartz / Pink Diamond , o único híbrido conhecido de humano e Gem , e a primeira Crystal Gem de ascendência humana. Como resultado de sua ascendência, Steven é um ser extraordinariamente único, com poderes inatos que vão além dos de humanos e Gems comuns.",
+            "gun": "Escudo",
+            "years": "16",
+            "url": "https://steven-universe.fandom.com/wiki/Steven_Universe_(character)"
+        },
+        {
+            "name": "Pink Diamond",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/e/e9/Pink_Diamond_Deco-Kun_Version_%28Remake_2%29.png/revision/latest?cb=20210426105226",
+            "describle": "Diamante Rosa era uma Gem do Planeta Natal e membro da Grande Autoridade Diamante , que continuou a governar a raça Gem em sua ausência. Originalmente encarregada da colonização da Terra , ela assumiu a forma de um Quartzo Rosa depois que suas companheiras Diamantes se recusaram a permitir que ela abandonasse a colônia e poupasse a vida encontrada no planeta .",
+            "gun": "",
+            "years": "20.000",
+            "url": "https://steven-universe.fandom.com/wiki/Pink_Diamond"
+        },
+        {
+            "name": "Rose Quartz",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/f/f9/Rose_Quartz_-_Weaponized.png/revision/latest?cb=20201009211451",
+            "describle": "Rose Quartz foi a fundadora e antiga líder das Crystal Gems . Encantada com a beleza da Terra , ela liderou suas amigas e aliadas em uma rebelião contra o Planeta Natal das Gems cerca de 5.500 anos antes dos eventos da série, expulsando com sucesso as Gems do Planeta Natal e salvando as formas de vida que o habitavam.",
+            "gun": "Escudo - Espada",
+            "years": "6.000",
+            "url": "https://steven-universe.fandom.com/wiki/Rose_Quartz"
+        },
+        {
+            "name": "White Diamond",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/0/0a/White_Diamond_%28S5_Stars%29_by_RylerGamerDBS.png/revision/latest?cb=20201001004546",
+            "describle": "Diamante Branco , ou simplesmente Branco , é uma Gem do Planeta Natal e líder da Grande Autoridade Diamante, que antes governava a raça Gem . Ela detinha autoridade suprema sobre todas as Gems, incluindo suas companheiras Diamantes, e era vista como um ser superior ao resto de sua espécie.",
+            "gun": "Feixe de Controle de Gemas",
+            "years": "20.000",
+            "url": "https://steven-universe.fandom.com/wiki/White_Diamond"
+        },
+        {
+            "name": "Pink Pearl",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/5/50/Pink_Pearl_%28Render_Future%29_by_RylerGamerDBS.png/revision/latest?cb=20201016190153",
+            "describle": "Pérola (ou Pérola Rosa, como é chamada pela equipe de produção ) é uma Gem do Planeta Natal que foi a Pérola original de Diamante Rosa antes de ser tirada dela e colocada sob a posse de Diamante Branco , que usou seus poderes para controlar Pérola Rosa remotamente, tornando-a sem cor (referida como Pérola Branca fora da série). Ela apareceu pela primeira vez em 'Pernas Daqui para o Planeta Natal'.",
+            "gun": "",
+            "years": "8.000",
+            "url": "https://steven-universe.fandom.com/wiki/Pink_Pearl"
+        },
+        {
+            "name": "Jasper",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/4/4c/Jasper3_By_TheOffColors.png/revision/latest?cb=20201119180403",
+            "describle": "Jasper é uma Gem de Homeworld e ex-antagonista que foi mencionada indiretamente pela primeira vez em 'A Mensagem' e fez sua estreia oficial em 'O Retorno'. Originalmente enviada à Terra para ajudar Peridot em sua missão , ela foi corrompida após se fundir com uma das Gems Corrompidas que mantinha em cativeiro em 'Terrestres'.",
+            "gun": "Capacete de proteção",
+            "years": "5.200",
+            "url": "https://steven-universe.fandom.com/wiki/Jasper"
+        },
+        {
+            "name": "Lapis Lazuli",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/d/d6/Lapis_S6_correct_color_palette.png/revision/latest?cb=20260411002031",
+            "describle": "Lápis Lazúli é membro das Crystal Gems e fez sua estreia em 'Mirror Gem'. Durante sua aliança com o Planeta Natal das Gems , ela foi pega no fogo cruzado da Rebelião e desintegrada por Bismuto . O Planeta Natal a confundiu com uma das Crystal Gems e a aprisionou em um espelho mágico com a intenção de interrogá-la sobre o paradeiro de sua suposta companheira.",
+            "gun": "Hidrocinese",
+            "years": "6.000",
+            "url": "https://steven-universe.fandom.com/wiki/Lapis_Lazuli"
+        },
+        {
+            "name": "Peridot",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/b/b4/PeridotS6Render_By_TheOffColors.png/revision/latest?cb=20250909021247",
+            "describle": "Peridot (especificamente Peridot Facet-2F5L Cut-5XG ) é uma integrante das Crystal Gems que fez sua estreia em 'Warp Tour'.Originalmente, ela era uma técnica Gem de Homeworld e uma aluna certificada do Jardim de Infância . Após ficar presa na Terra depois dos eventos de 'Fuga da Prisão', ela atuou como uma antagonista recorrente até se tornar mais uma anti-heroína e pseudo-antagonista ao estabelecer uma trégua com as Crystal Gems em 'Quando Chove' para ajudá-las a salvar a Terra do Cluster.",
+            "gun": "Aprimoradores de membros - Ferrocinese",
+            "years": "3.000",
+            "url": "https://steven-universe.fandom.com/wiki/Peridot"
+        },
+        {
+            "name": "Sapphire",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/0/04/Sapphire_render_regen.png/revision/latest?cb=20260209002319",
+            "describle": "Safira é uma integrante das Crystal Gems que fez sua estreia oficial em 'Fuga da Prisão'. Anteriormente membro da corte de Diamante Azul , sua missão era informar sua Diamante sobre o ataque dos Rebeldes usando sua visão do futuro. Depois que uma de suas guardas, Rubi , acidentalmente se fundiu com ela, Safira fugiu com ela para evitar que fosse estilhaçada por Diamante Azul.",
+            "gun": "",
+            "years": "8.000",
+            "url": "https://steven-universe.fandom.com/wiki/Sapphire"
+        },
+        {
+            "name": "Ruby",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/b/b8/RubyRegen2_By_TheOffColors.png/revision/latest?cb=20251002191841",
+            "describle": "Ruby é uma integrante das Crystal Gems que fez sua estreia oficial em 'Fuga da Prisão'. Originalmente uma soldado Gem de Homeworld designada para proteger Sapphire durante uma missão na Terra , as duas se fundiram acidentalmente e foram forçadas a fugir para impedir que Ruby fosse estilhaçada por Diamante Azul.",
+            "gun": "Manopla",
+            "years": "6.000",
+            "url": "https://steven-universe.fandom.com/wiki/Ruby"
+        },
+        {
+            "name": "Greg Universe",
+            "image": "https://static.wikia.nocookie.net/steven-universe/images/3/3c/Greg_Future.PNG/revision/latest?cb=20200617190422",
+            "describle": "Gregory 'Greg' Universe (nascido DeMayo ) é o pai de Steven Universe e foi o parceiro romântico da falecida Rose Quartz . Ele é o atual proprietário da lavanderia It's a Wash . Greg enfrentou dificuldades financeiras durante a maior parte, senão toda, a sua vida adulta. No entanto, em 'Drop Beat Dad', ele recebe um cheque de direitos autorais e se torna milionário. Mais tarde, Greg usa parte do dinheiro para fazer uma viagem com Steven e Pérola , onde ele e Pérola finalmente fazem as pazes após décadas de relacionamento tenso.",
+            "gun": "Guitarra - Máquina de waffles",
+            "years": "42",
+            "url": "https://steven-universe.fandom.com/wiki/Greg_Universe"
+        }
+    ]
+}
+];

@@ -7,8 +7,8 @@
             "name": "Historia - Steven Universe",
             "image": "./src/js/module/imgAPI/StevenUniverse.webp",
             "describle": "Steven Universe é uma história de amadurecimento contada pela perspectiva de Steven, o membro mais jovem das Crystal Gems, uma equipe de guardiãs mágicas que protegem o planeta Terra.A série animada foi concebida como parte da 'Iniciativa de Desenvolvimento de Curtas' do Cartoon Network Studios e é criada por Rebecca Sugar , roteirista e artista de storyboard indicada ao Emmy e ao Annie Award, e a primeira criadora solo não-binária de uma série do Cartoon Network!",
-            "gun": "",
-            "years": "",
+            "gun": "-",
+            "years": "-",
             "url": "https://steven-universe.fandom.com/wiki/Steven_Universe_Wiki"
         },
         {
@@ -47,7 +47,7 @@
             "name": "Pink Diamond",
             "image": "https://static.wikia.nocookie.net/steven-universe/images/e/e9/Pink_Diamond_Deco-Kun_Version_%28Remake_2%29.png/revision/latest?cb=20210426105226",
             "describle": "Diamante Rosa era uma Gem do Planeta Natal e membro da Grande Autoridade Diamante , que continuou a governar a raça Gem em sua ausência. Originalmente encarregada da colonização da Terra , ela assumiu a forma de um Quartzo Rosa depois que suas companheiras Diamantes se recusaram a permitir que ela abandonasse a colônia e poupasse a vida encontrada no planeta .",
-            "gun": "",
+            "gun": "-",
             "years": "20.000",
             "url": "https://steven-universe.fandom.com/wiki/Pink_Diamond"
         },
@@ -71,7 +71,7 @@
             "name": "Pink Pearl",
             "image": "https://static.wikia.nocookie.net/steven-universe/images/5/50/Pink_Pearl_%28Render_Future%29_by_RylerGamerDBS.png/revision/latest?cb=20201016190153",
             "describle": "Pérola (ou Pérola Rosa, como é chamada pela equipe de produção ) é uma Gem do Planeta Natal que foi a Pérola original de Diamante Rosa antes de ser tirada dela e colocada sob a posse de Diamante Branco , que usou seus poderes para controlar Pérola Rosa remotamente, tornando-a sem cor (referida como Pérola Branca fora da série). Ela apareceu pela primeira vez em 'Pernas Daqui para o Planeta Natal'.",
-            "gun": "",
+            "gun": "-",
             "years": "8.000",
             "url": "https://steven-universe.fandom.com/wiki/Pink_Pearl"
         },
@@ -103,7 +103,7 @@
             "name": "Sapphire",
             "image": "https://static.wikia.nocookie.net/steven-universe/images/0/04/Sapphire_render_regen.png/revision/latest?cb=20260209002319",
             "describle": "Safira é uma integrante das Crystal Gems que fez sua estreia oficial em 'Fuga da Prisão'. Anteriormente membro da corte de Diamante Azul , sua missão era informar sua Diamante sobre o ataque dos Rebeldes usando sua visão do futuro. Depois que uma de suas guardas, Rubi , acidentalmente se fundiu com ela, Safira fugiu com ela para evitar que fosse estilhaçada por Diamante Azul.",
-            "gun": "",
+            "gun": "-",
             "years": "8.000",
             "url": "https://steven-universe.fandom.com/wiki/Sapphire"
         },
